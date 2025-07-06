@@ -1,4 +1,4 @@
-````markdown
+
 # 🌤️ Weather Forecast Web App
 
 A sleek, responsive **5-day weather forecast app** built using **HTML, CSS, and JavaScript**, featuring:
