@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-slider">
+        <!-- Background images will be added dynamically -->
+    </div>
+    
+    <div class="container">
+        <div class="search-container">
+            <input type="text" id="city-input" placeholder="Enter city name">
+            <button id="search-btn">Search</button>
+            <button id="location-btn">Use My Location</button>
+        </div>
+        
+        <div class="current-weather">
+            <h1 id="city-name">Weather Forecast</h1>
+            <div class="today-forecast">
+                <h2>Today</h2>
+                <div class="temp-container">
+                    <span id="today-high" class="high-temp">24°C</span>
+                    <span id="today-low" class="low-temp">14°C</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="forecast-container">
+            <div class="forecast-day">
+                <h3>Tuesday</h3>
+                <div class="day-temp">
+                    <span class="high-temp">27°C</span>
+                    <span class="low-temp">16°C</span>
+                </div>
+            </div>
+            <div class="forecast-day">
+                <h3>Wednesday</h3>
+                <div class="day-temp">
+                    <span class="high-temp">26°C</span>
+                    <span class="low-temp">17°C</span>
+                </div>
+            </div>
+            <div class="forecast-day">
+                <h3>Thursday</h3>
+                <div class="day-temp">
+                    <span class="high-temp">23°C</span>
+                    <span class="low-temp">15°C</span>
+                </div>
+            </div>
+            <div class="forecast-day">
+                <h3>Friday</h3>
+                <div class="day-temp">
+                    <span class="high-temp">21°C</span>
+                    <span class="low-temp">13°C</span>
+                </div>
+            </div>
+            <div class="forecast-day">
+                <h3>Saturday</h3>
+                <div class="day-temp">
+                    <span class="high-temp">19°C</span>
+                    <span class="low-temp">12°C</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
