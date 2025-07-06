@@ -65,4 +65,3 @@ Feel free to use and modify this project for learning or personal use. ⭐
 
 Made with 💙 by \[Sanjana]
 
-```
