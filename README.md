@@ -37,9 +37,7 @@ Replace `YOUR_API_KEY` in `script.js` with your OpenWeatherMap API key:
 
 ```javascript
 const apiKey = 'YOUR_API_KEY';
-
----
-
+```
 ## 🧠 Technologies Used
 
 * HTML5
