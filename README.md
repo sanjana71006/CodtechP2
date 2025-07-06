@@ -37,11 +37,6 @@ Replace `YOUR_API_KEY` in `script.js` with your OpenWeatherMap API key:
 
 ```javascript
 const apiKey = 'YOUR_API_KEY';
-```
-
-### 3. Add Your Background Images
-
-Replace `img1.jpg`, `img2.jpg`, `img3.jpg` in `style.css` with your own images placed in the root folder.
 
 ---
 
